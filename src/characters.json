@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Malfurian",
-    "image": "http://media.blizzard.com/wow/media/artwork/wow-characters/artwork-malfurion-stormrage1-large.jpg",
+    "image": "https://d1u5p3l4wpay3k.cloudfront.net/allstars_gamepedia/f/fb/MalfurionArt.jpg?version=94bdbcea451d7358bd80e99ecae19a6c",
     "class": "Druid",
     "race": "Night Elf", 
     "location": "Darnassus, Kaldorei"
@@ -155,9 +155,9 @@
     "id": 20,
     "name": "Lord Jaraxxus",
     "image": "https://d1u5p3l4wpay3k.cloudfront.net/hearthstone_gamepedia/thumb/0/0c/Lord_Jaraxxus_%28art%29.jpg/700px-Lord_Jaraxxus_%28art%29.jpg?version=6fd10ba1aca2899bcb404345f78df933",
-    "class": "Demon Hunter",
-    "race": "Night Elf; Demon", 
-    "location": "Unknown"
+    "class": "Warlock",
+    "race": "Eredar; Demon", 
+    "location": "Argus"
   }
 
 
