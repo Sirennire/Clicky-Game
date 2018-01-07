@@ -7,9 +7,18 @@ import Footer from "./components/Footer/footer";
 import characters from "./characters.json";
 import "./App.css";
 
+// import {headShake} from 'react-animations';
+// import {StyleSheet, css} from 'aphrodite';
+
+// const styles = StyleSheet.create({
+//     headShake: {
+//         animationName: headShake,
+//         animationDuration: '1s'
+//     }
+// });
+
 var arrayHasDuplicates = require("array-has-duplicates")
 var shuffle = require("shuffle-array");
-
 shuffle(characters); 
 
 class App extends Component {

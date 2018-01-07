@@ -4,10 +4,14 @@
   "private": true,
   "homepage": "https://github.com/Sirennire/Clicky-Game",
   "dependencies": {
+    "aphrodite": "^1.2.5",
     "array-has-duplicates": "^1.0.1",
     "react": "^16.2.0",
+    "react-animated-css": "^1.0.2",
+    "react-animations": "^1.0.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.0.17",
+    "react-sound": "^1.0.0",
     "shuffle-array": "^1.0.1"
   },
   "scripts": {
