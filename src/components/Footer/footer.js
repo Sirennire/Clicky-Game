@@ -1,4 +1,5 @@
 import React from "react";
+import logo from './logo.svg';
 import "./footer.css";
 
 const Footer = () => {
@@ -6,8 +7,8 @@ const Footer = () => {
         <div>
             <footer className="footer">
                 <div className="bottom">
-                    Clicky Game!
-                <img alt="react" src="" />
+                        Made By Erin Hagerty © 2018
+                    <img src={logo} className="App-logo" alt="logo" />
                 </div>
             
             </footer> 
