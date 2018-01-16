@@ -1,10 +1,12 @@
+import Malfurian from "components/Soundy/sounds/deaths/druid-death.mp3";
+
 [
   {
     "id": 1,
     "name": "Malfurian",
     "image": "https://d1u5p3l4wpay3k.cloudfront.net/allstars_gamepedia/f/fb/MalfurionArt.jpg?version=94bdbcea451d7358bd80e99ecae19a6c",
     "class": "Druid",
-    "race": "Night Elf", 
+    "race": "Night Elf",
     "location": "Darnassus, Kaldorei",
     "greetings": "./sounds/greetings/malfurion.mp3",
     "death": "components/Soundy/sounds/deaths/druid-death.mp3"
@@ -14,7 +16,7 @@
     "name": "Rexxar",
     "image": "https://cdna.artstation.com/p/assets/images/images/007/189/648/large/eric-kenji-aoyagi-deathstalker-rexxar-eric-kenji-02.jpg?1504302995",
     "class": "Hunter",
-    "race": "Mok'Nathal (Half-Ogre)", 
+    "race": "Mok'Nathal (Half-Ogre)",
     "location": "Orgrimmar, Durotar",
     "greetings": "",
     "death": ""
@@ -24,7 +26,7 @@
     "name": "Jaina Proudmore",
     "image": "https://vignette.wikia.nocookie.net/wowwiki/images/c/cb/Jianna.jpg/revision/latest/scale-to-width-down/364?cb=20151226193429",
     "class": "Mage",
-    "race": "Human", 
+    "race": "Human",
     "location": "Theramore",
     "greetings": "",
     "death": ""
@@ -34,7 +36,7 @@
     "name": "Uther Lightbringer",
     "image": "https://d1u5p3l4wpay3k.cloudfront.net/hearthstone_gamepedia/7/76/Uther_-_TCG_2.jpg?version=ddd397b6544825dfc16d08592bc2c139",
     "class": "Paladin",
-    "race": "Human", 
+    "race": "Human",
     "location": "Stormwind",
     "greetings": "",
     "death": ""
@@ -44,7 +46,7 @@
     "name": "Anduin Llane Wrynn",
     "image": "https://cdna.artstation.com/p/assets/images/images/005/686/810/large/dariia-kasimova-anduin-2-0.jpg?1493029659",
     "class": "Priest",
-    "race": "Human", 
+    "race": "Human",
     "location": "Stormwind",
     "greetings": "./sounds/greetings/anduin.mp3",
     "death": ""
@@ -54,7 +56,7 @@
     "name": "Valeera Sanguinar",
     "image": "https://d1u5p3l4wpay3k.cloudfront.net/hearthstone_gamepedia/thumb/1/1b/Valeera-Full.jpg/800px-Valeera-Full.jpg?version=324e16c500d29344955b87fc4d54012c",
     "class": "Rogue",
-    "race": "Blood Elf", 
+    "race": "Blood Elf",
     "location": "Stormwind",
     "greetings": "",
     "death": ""
@@ -64,7 +66,7 @@
     "name": "Thrall",
     "image": "http://media-hearth.cursecdn.com/avatars/349/80/636440832304732900.jpeg",
     "class": "Shaman",
-    "race": "Orc", 
+    "race": "Orc",
     "location": "Orgrimmar, Durotar",
     "greetings": "",
     "death": ""
@@ -74,7 +76,7 @@
     "name": "Gul'dan",
     "image": "http://media.blizzard.com/wow/media/artwork/wow-characters/artwork-guldan4-large.jpg",
     "class": "Warlock",
-    "race": "Orc", 
+    "race": "Orc",
     "location": "Draenor",
     "greetings": "",
     "death": ""
@@ -84,7 +86,7 @@
     "name": "Garrosh Hellscream",
     "image": "https://d1u5p3l4wpay3k.cloudfront.net/hearthstone_gamepedia/thumb/f/fb/Garrosh_-_art2.jpg/700px-Garrosh_-_art2.jpg?version=67a9d41e84282bb09fd1b6044a735445",
     "class": "Warrior",
-    "race": "Orc", 
+    "race": "Orc",
     "location": "Draenor",
     "greetings": "./sounds/greetings/garrosh.mp3",
     "death": ""
@@ -94,17 +96,17 @@
     "name": "Alleria Windrunner",
     "image": "https://d1u5p3l4wpay3k.cloudfront.net/hearthstone_gamepedia/2/2b/Alleria_Windrunner_-_art2.jpg?version=23d248a65ed9a2d84b461a1535eeacb6",
     "class": "Hunter",
-    "race": "High Elf", 
+    "race": "High Elf",
     "location": "Quel'Thalas",
     "greetings": "",
     "death": ""
-  }, 
+  },
   {
     "id": 11,
     "name": "Medivh",
     "image": "https://d1u5p3l4wpay3k.cloudfront.net/hearthstone_gamepedia/8/87/Medivh_-_art3.jpg?version=d21bc2f5dee04d7610ee66c483c148d2",
     "class": "Mage",
-    "race": "Prophet", 
+    "race": "Prophet",
     "location": ""
   },
   {
@@ -112,7 +114,7 @@
     "name": "Magni Bronzebeard",
     "image": "https://orig00.deviantart.net/d349/f/2014/116/7/7/warcraft___magni_bronzebeard_by_samwisedidier-d7g4s20.jpg",
     "class": "Warrior",
-    "race": "Dwarf", 
+    "race": "Dwarf",
     "location": "Khaz Modan"
   },
   {
@@ -130,7 +132,7 @@
     "name": "Lady Liadrin",
     "image": "https://d1u5p3l4wpay3k.cloudfront.net/hearthstone_gamepedia/thumb/c/cc/Lady_Liadrin_cinematic_art.jpg/600px-Lady_Liadrin_cinematic_art.jpg?version=6b1739a99bd31b6e7b1be71f11421240",
     "class": "Paladin",
-    "race": "Blood Elf", 
+    "race": "Blood Elf",
     "location": "Quel'Thalas",
     "greetings": "",
     "death": ""
@@ -140,7 +142,7 @@
     "name": "Prince Arthas Menethil",
     "image": "https://vignette.wikia.nocookie.net/wowwiki/images/1/1c/Arthas.jpg/revision/latest/scale-to-width-down/332?cb=20140503155958",
     "class": "Paladin",
-    "race": "Human", 
+    "race": "Human",
     "location": "Lordaeron",
     "greetings": "",
     "death": ""
@@ -150,7 +152,7 @@
     "name": "Tyrande Whisperwind",
     "image": "https://d1u5p3l4wpay3k.cloudfront.net/hearthstone_gamepedia/thumb/7/77/Tyrande_Whisperwind_cinematic_art.jpg/375px-Tyrande_Whisperwind_cinematic_art.jpg?version=bc0bc20e356817d58c92f3f06d3e6a87",
     "class": "Priest",
-    "race": "Night Elf", 
+    "race": "Night Elf",
     "location": "Darnassus, Kaldorei",
     "greetings": "",
     "death": ""
@@ -160,7 +162,7 @@
     "name": "Maiev Shadowsong",
     "image": "https://pm1.narvii.com/6108/06d0a7db9d19fe3ae779b5d7fcb26369af165619_hq.jpg",
     "class": "Rogue",
-    "race": "Night Elf", 
+    "race": "Night Elf",
     "location": "Kaldorei",
     "greetings": "",
     "death": ""
@@ -170,7 +172,7 @@
     "name": "Morgl The Oracle",
     "image": "https://d1u5p3l4wpay3k.cloudfront.net/wowpedia/thumb/2/23/Morgl_HS_cropped.jpg/669px-Morgl_HS_cropped.jpg?version=219f727d17bafa631a5a61f9965b254b",
     "class": "Shaman",
-    "race": "Murloc", 
+    "race": "Murloc",
     "location": "The Maelstrom",
     "greetings": "",
     "death": ""
@@ -180,7 +182,7 @@
     "name": "Nemsy",
     "image": "https://d1u5p3l4wpay3k.cloudfront.net/hearthstone_gamepedia/thumb/5/5f/Fen_Creeper-full.jpg/300px-Fen_Creeper-full.jpg?version=765d16b3e4530970ff8cc8198cd63879",
     "class": "Warlock",
-    "race": "Gnome", 
+    "race": "Gnome",
     "location": "Unknown",
     "greetings": "",
     "death": ""
@@ -190,13 +192,9 @@
     "name": "Lord Jaraxxus",
     "image": "https://d1u5p3l4wpay3k.cloudfront.net/hearthstone_gamepedia/thumb/0/0c/Lord_Jaraxxus_%28art%29.jpg/700px-Lord_Jaraxxus_%28art%29.jpg?version=6fd10ba1aca2899bcb404345f78df933",
     "class": "Warlock",
-    "race": "Eredar; Demon", 
+    "race": "Eredar; Demon",
     "location": "Argus",
     "greetings": "./sounds/greetings/jaraxxus.mp3",
     "death": ""
   }
 ]
-
-
-
-
