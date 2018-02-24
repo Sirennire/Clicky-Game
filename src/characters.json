@@ -1,6 +1,7 @@
-import Malfurian from "components/Soundy/sounds/deaths/druid-death.mp3";
+
 
 [
+
   {
     "id": 1,
     "name": "Malfurian",
@@ -8,7 +9,7 @@ import Malfurian from "components/Soundy/sounds/deaths/druid-death.mp3";
     "class": "Druid",
     "race": "Night Elf",
     "location": "Darnassus, Kaldorei",
-    "greetings": "./sounds/greetings/malfurion.mp3",
+    "greetings": "http://localhost:8888/malfurion.ogg",
     "death": "components/Soundy/sounds/deaths/druid-death.mp3"
   },
   {
@@ -18,7 +19,7 @@ import Malfurian from "components/Soundy/sounds/deaths/druid-death.mp3";
     "class": "Hunter",
     "race": "Mok'Nathal (Half-Ogre)",
     "location": "Orgrimmar, Durotar",
-    "greetings": "",
+    "greetings": "http://localhost:8888/rexxar.ogg",
     "death": ""
   },
   {
@@ -28,7 +29,7 @@ import Malfurian from "components/Soundy/sounds/deaths/druid-death.mp3";
     "class": "Mage",
     "race": "Human",
     "location": "Theramore",
-    "greetings": "",
+    "greetings": "http://localhost:8888/jaina.ogg",
     "death": ""
   },
   {
@@ -38,7 +39,7 @@ import Malfurian from "components/Soundy/sounds/deaths/druid-death.mp3";
     "class": "Paladin",
     "race": "Human",
     "location": "Stormwind",
-    "greetings": "",
+    "greetings": "http://localhost:8888/uther.ogg",
     "death": ""
   },
   {
@@ -48,7 +49,7 @@ import Malfurian from "components/Soundy/sounds/deaths/druid-death.mp3";
     "class": "Priest",
     "race": "Human",
     "location": "Stormwind",
-    "greetings": "./sounds/greetings/anduin.mp3",
+    "greetings": "http://localhost:8888/anduin.ogg",
     "death": ""
   },
   {
@@ -58,7 +59,7 @@ import Malfurian from "components/Soundy/sounds/deaths/druid-death.mp3";
     "class": "Rogue",
     "race": "Blood Elf",
     "location": "Stormwind",
-    "greetings": "",
+    "greetings": "http://localhost:8888/valeera.ogg",
     "death": ""
   },
   {
@@ -68,7 +69,7 @@ import Malfurian from "components/Soundy/sounds/deaths/druid-death.mp3";
     "class": "Shaman",
     "race": "Orc",
     "location": "Orgrimmar, Durotar",
-    "greetings": "",
+    "greetings": "http://localhost:8888/thrall.ogg",
     "death": ""
   },
   {
@@ -78,7 +79,7 @@ import Malfurian from "components/Soundy/sounds/deaths/druid-death.mp3";
     "class": "Warlock",
     "race": "Orc",
     "location": "Draenor",
-    "greetings": "",
+    "greetings": "http://localhost:8888/guldan.ogg",
     "death": ""
   },
   {
@@ -88,7 +89,7 @@ import Malfurian from "components/Soundy/sounds/deaths/druid-death.mp3";
     "class": "Warrior",
     "race": "Orc",
     "location": "Draenor",
-    "greetings": "./sounds/greetings/garrosh.mp3",
+    "greetings": "http://localhost:8888/garrosh.ogg",
     "death": ""
   },
   {
@@ -194,7 +195,7 @@ import Malfurian from "components/Soundy/sounds/deaths/druid-death.mp3";
     "class": "Warlock",
     "race": "Eredar; Demon",
     "location": "Argus",
-    "greetings": "./sounds/greetings/jaraxxus.mp3",
+    "greetings": "http://localhost:8888/jaraxxus.ogg",
     "death": ""
   }
 ]

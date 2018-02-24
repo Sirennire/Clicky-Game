@@ -6,7 +6,10 @@ import Header from "./components/Header/header";
 import Footer from "./components/Footer/footer";
 import characters from "./characters.json";
 import "./App.css";
+
 import backgroundMusic from "./sounds/background.mp3";
+import malfurion from "./sounds/malfurion.mp3";
+
 
 // import {headShake} from 'react-animations';
 // import {StyleSheet, css} from 'aphrodite';
@@ -16,44 +19,49 @@ import backgroundMusic from "./sounds/background.mp3";
 //         animationDuration: '1s'
 //     }
 // });
-//var backgroundMusic = new Audio("./components/Soundy/sounds/background.mp3") 
+//var backgroundMusic = new Audio("./components/Soundy/sounds/background.mp3")
 
 var arrayHasDuplicates = require("array-has-duplicates")
 var shuffle = require("shuffle-array");
-shuffle(characters); 
+shuffle(characters);
 
 class App extends Component {
   state = {
     characters,
-    check: false, 
-    counter: 0, 
-    topScore: 0, 
+    check: false,
+    counter: 0,
+    topScore: 0,
     newArray: [],
     title: "Click an image to begin!"
   };
 
   componentDidMount() {
     var backgroundMusic = document.getElementById("music");
-    console.log(backgroundMusic); 
-    backgroundMusic.play();
+    var malfurion = document.getElementById("mal-music");
+    console.log(backgroundMusic);
+
+    console.log(malfurion);
+    //backgroundMusic.play();
+
+
   }
 
   shuffleCharacters = () => {
     shuffle(characters)
     this.setState({ characters });
-  };  
+  };
 
   pushClick = (id) => {
     console.time("loop");
     const NewArray = this.state.characters.filter(character => character.id === id);
     console.log(NewArray);
       this.state.newArray.push(NewArray[0].id);
-        if (arrayHasDuplicates(this.state.newArray)) { 
+        if (arrayHasDuplicates(this.state.newArray)) {
           alert("oops! Game Over.");
           this.setState({
             title: "You guessed incorrectly. Try again!"
           });
-          if (this.state.counter > this.state.topScore) { 
+          if (this.state.counter > this.state.topScore) {
             this.setState({
               topScore: this.state.counter
             });
@@ -64,12 +72,12 @@ class App extends Component {
           });
         }
         else {
-          if (this.state.counter > 19){ 
+          if (this.state.counter > 19){
             alert("perfect score!");
             this.setState({
               counter: 0,
               newArray: []
-            }); 
+            });
 
           }
           else {
@@ -80,7 +88,7 @@ class App extends Component {
             this.setState({
               title: "You guessed correctly!",
               counter: (this.state.counter + 1)
-            });  
+            });
           }
         }
         console.timeEnd("loop");
@@ -89,7 +97,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <NavBar 
+        <NavBar
           counter={this.state.counter}
           topScore={this.state.topScore}
           title={this.state.title}
@@ -98,10 +106,11 @@ class App extends Component {
         <Header />
 
         <audio id="music" preload="auto" src={backgroundMusic}></audio>
-        
+        <audio id="mal-music" preload="auto" src={malfurion}></audio>
+
         <Wrapper className="container">
           {this.state.characters.map(character => (
-        
+
             <CharacterCard
               id={character.id}
               key={character.id}
@@ -113,7 +122,9 @@ class App extends Component {
               greeting={character.greetings}
               shuffleCharacters={this.shuffleCharacters}
               pushClick={this.pushClick}
+              music={this.music}
             />
+
           ))}
         </Wrapper>
 
